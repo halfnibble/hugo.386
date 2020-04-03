@@ -5,3 +5,11 @@ body {
 .navmargin {
 	margin-top: 2em;
 }
+
+@media (max-width: 979px) {
+    .navbar .btn-navbar {
+        background: #000 !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+}
